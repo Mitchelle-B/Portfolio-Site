@@ -1,7 +1,7 @@
 
 # My Portfolio #
 
-![Gif](A2.PortfolioPage/assets/screenshots/portfolio.gif)
+![Gif](PortfolioPage/assets/screenshots/portfolio.gif)
 
 ## About The Page ## 
 
@@ -13,19 +13,19 @@ Below are screenshots of my page and code for review:
 
 ### Screenshot of the About Me page ###
 
-![Screenshot of the website](A2.PortfolioPage/assets/screenshots/index.png)
+![Screenshot of the website](PortfolioPage/assets/screenshots/index.png)
 
 ### Screenshot of the Portfolio Page ###
 
-![Screenshot of the HTML Code](A2.PortfolioPage/assets/screenshots/html.png)
+![Screenshot of the HTML Code](PortfolioPage/assets/screenshots/html.png)
 
 ### Screenshot of the Contact Page ###
 
-![Screenshot of the CSS Code](A2.PortfolioPage/assets/screenshots/contactpage.png)
+![Screenshot of the CSS Code](PortfolioPage/assets/screenshots/contactpage.png)
 
 ### Screenshot of my html
 
-![Screenshot of my HTML](A2.PortfolioPage/assets/screenshots/indexhtml.pngg)
+![Screenshot of my HTML](PortfolioPage/assets/screenshots/indexhtml.pngg)
 
 ## Built With ##
 
