@@ -1,0 +1,23 @@
+/* universal selector*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+}
+/*styling the big box with my picture*/
+
+.jumbotron{
+  margin:30px !important;
+}
+/* styling the header container*/
+
+.container p-3 my-3 bg-dark text-white text-center{
+background-color: blue !important;
+text-align: center !important;
+}
+
+.jumbotron {
+    background-color: grey;
+}

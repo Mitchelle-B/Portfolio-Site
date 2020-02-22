@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+}
+
+.element.style {
+    margin: 100px !important;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    margin-left: auto !important;
+}

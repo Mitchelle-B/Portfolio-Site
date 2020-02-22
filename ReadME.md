@@ -1,7 +1,7 @@
 
 # My Portfolio #
 
-![Gif](assets/screenshots/portfolio.gif)
+![Gif](A2.PortfolioPage/assets/screenshots/portfolio.gif)
 
 ## About The Page ## 
 
@@ -9,21 +9,23 @@ Builting my portfolio with HTML, CSS framework and bootstrap. My portfolio will 
 
 ## Code Refactor Screen Shot ##
 
-### Image of my about me page###
+Below are screenshots of my page and code for review:
 
-![Screenshot of the website](assets/screenshots/index.png)
+### Screenshot of the About Me page ###
 
-### Screenshot of my Portfolio Page ###
+![Screenshot of the website](A2.PortfolioPage/assets/screenshots/index.png)
 
-![Screenshot of the HTML Code](assets/screenshots/html.png)
+### Screenshot of the Portfolio Page ###
+
+![Screenshot of the HTML Code](A2.PortfolioPage/assets/screenshots/html.png)
 
 ### Screenshot of the Contact Page ###
 
-![Screenshot of the CSS Code](assets/screenshots/contactpage.png)
+![Screenshot of the CSS Code](A2.PortfolioPage/assets/screenshots/contactpage.png)
 
 ### Screenshot of my html
 
-![Screenshot of my HTML](assets/screenshots/indexhtml.pngg)
+![Screenshot of my HTML](A2.PortfolioPage/assets/screenshots/indexhtml.pngg)
 
 ## Built With ##
 
