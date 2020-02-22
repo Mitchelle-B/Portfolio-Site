@@ -17,11 +17,11 @@ Below are screenshots of my page and code for review:
 
 ### Screenshot of the Portfolio Page ###
 
-![Screenshot of the HTML Code](Assets/screenshots/html.png)
+![Screenshot of the Portfolio Code](Assets/screenshots/html.png)
 
 ### Screenshot of the Contact Page ###
 
-![Screenshot of the CSS Code](Assets/screenshots/contactpage.png)
+![Screenshot of the Contact Code](Assets/screenshots/contactpage.png)
 
 ### Screenshot of my html
 
