@@ -7,25 +7,25 @@
 
 Builting my portfolio with HTML, CSS framework and bootstrap. My portfolio will highlight my skills, strength, weaknesses and the work l've undertaken. 
 
-## Code Refactor Screen Shot ##
+## Portfolio Page Screen Shot ##
 
 Below are screenshots of my page and code for review:
 
 ### Screenshot of the About Me page ###
 
-![Screenshot of the website](assets/screenshots/aboutme.png)
+![Screenshot of the website](Assets/screenshots/aboutme.PNG)
 
 ### Screenshot of the Portfolio Page ###
 
-![Screenshot of the HTML Code](assets/screenshots/portfoliopage.png)
+![Screenshot of the HTML Code](Assets/screenshots/portfoliopage.PNG)
 
 ### Screenshot of the Contact Page ###
 
-![Screenshot of the CSS Code](assets/screenshots/contactpage.png)
+![Screenshot of the CSS Code](Assets/screenshots/contactpage.png)
 
 ### Screenshot of my html
 
-![Screenshot of my HTML](Assets/screenshots/indexhtml.png)
+![Screenshot of my HTML](Assets/screenshots/indexhtml.PNG)
 
 ## Built With ##
 
