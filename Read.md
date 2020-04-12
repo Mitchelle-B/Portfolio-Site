@@ -1,7 +1,7 @@
 
-# Quiz Page #
+# My Portfolio #
 
-![Screenshot of my JS](Assets/quizpage.png)
+![Gif](Assets/screenshots/portfolio.gif)
 
 ## About The Page ## 
 
@@ -12,6 +12,8 @@ Creating a timed quiz on JS fundamentals that stores high scores and gauges my p
 Below are screenshots of my page and code for review:
 
 ### Screenshot of my Code ###
+
+![Screenshot of my JS](Assets/quizpage.png)
 
 ### Screenshot of my JS ###
 
@@ -50,3 +52,6 @@ Contact
 
 Project Link: https://github.com/Mitchelle-B/repo
 
+## Acknowledgements ##
+
+UWA Coding Bootcamp 
