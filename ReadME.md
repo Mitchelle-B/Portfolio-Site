@@ -1,7 +1,7 @@
 
 # My Portfolio #
 
-![Gif](assets/screenshots/portfolio.gif)
+![Gif](Assets/screenshots/portfolio.gif)
 
 ## About The Page ## 
 
