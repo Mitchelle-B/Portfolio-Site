@@ -1,25 +1,31 @@
 
-# Quiz Page #
+# My Portfolio #
 
-![Screenshot of my JS](Assets/quizpage.png)
+![Gif](assets/screenshots/portfolio.gif)
 
 ## About The Page ## 
 
-Creating a timed quiz on JS fundamentals that stores high scores and gauges my progress compared to other peers
+Builting my portfolio with HTML, CSS framework and bootstrap. My portfolio will highlight my skills, strength, weaknesses and the work l've undertaken. 
 
-## Quiz Screen Shots ##
+## Code Refactor Screen Shot ##
 
 Below are screenshots of my page and code for review:
 
-### Screenshot of my Code ###
+### Screenshot of the About Me page ###
 
-### Screenshot of my JS ###
+![Screenshot of the website](assets/screenshots/aboutme.png)
 
-![Screenshot of my JS](Assets/snipofjs.png)
+### Screenshot of the Portfolio Page ###
+
+![Screenshot of the HTML Code](assets/screenshots/portfoliopage.png)
+
+### Screenshot of the Contact Page ###
+
+![Screenshot of the CSS Code](assets/screenshots/contactpage.png)
 
 ### Screenshot of my html
 
-![Screenshot of my HTML](Assets/snipofhtml.png)
+![Screenshot of my HTML](Assets/screenshots/indexhtml.png)
 
 ## Built With ##
 
@@ -50,3 +56,6 @@ Contact
 
 Project Link: https://github.com/Mitchelle-B/repo
 
+## Acknowledgements ##
+
+UWA Coding Bootcamp 
