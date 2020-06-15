@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./assets/css/styles.css"/>
   <meta name="keywords" content="Portfolio,Programming,Developer,Employment, Coding">
   <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
   <!-- This is the top header--> <!-- p-3 my-3 bg-dark text-white text-center-->
 <div class="container p-3 my-3 bg-dark text-white text-center">
@@ -28,7 +29,7 @@
     <header class="masthead bg-primary text-black text-center">
         <div class="container d-flex align-items-center flex-column">
           <img class= "img-fluid rounded-circle mx-auto d-block" src="Assets/images/me.jpg" alt="MyImage" width="400px" height="400px"> <!-- Masthead Heading-->
-          <!-- <h1 class="masthead-heading text-uppercase mb-0">Web Designer</h1> -->
+          
           <!-- Icon Divider-->
           <div class="divider-custom divider-light">
               <div class="divider-custom-line"></div>
@@ -36,7 +37,8 @@
               <div class="divider-custom-line"></div>
           </div>
           <!-- Masthead Subheading-->
-          <p class="masthead-subheading font-weight-light text-white mb-0">Web Designer</p>
+          <!-- <h1 class="masthead-heading text-uppercase mb-0">Web Designer</h1> -->
+          <p class="masthead-subheading font-weight-light text-uppercase text-white mb-0">Web Designer</p>
         </div>
     </header>
     <section class="page-section bg-primary text-black mb-0" id="about">
@@ -97,6 +99,7 @@
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
                     <img class="img-fluid height" src="Assets/images/weather.gif" alt="" />
+                    <h7>Weather APIs</h7>
                 </div>
             </div>
                     <!-- Portfolio Item 4-->
@@ -106,7 +109,7 @@
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
                     <img class="img-fluid" src="Assets/images/obama.gif" alt="" />
-                    <h1 >NoteTaker</h1>
+                    <h7>NoteTaker</h7>
                 </div>
             </div>
                 <!-- Portfolio Item 5-->
@@ -116,6 +119,7 @@
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
                     <img class="img-fluid" src="Assets/images/team.gif" alt="" />
+                    <h7>Team Profile</h7>
                 </div>
             </div>
                 <!-- Portfolio Item 6-->
@@ -178,17 +182,26 @@
               </div>
         </div>
     </section>
-      <footer class="footer text-center">
+    <footer class="footer bg-secondary text-black mb-0" id="Footer">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row"> -->
                 <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                <!-- <div class="col-lg-4 mb-5 mb-lg-0 text-center"> -->
+                <div class="info-color-light text-center py-4">
+                <h7 class="page-section-heading text-center text-dar">Around the Web</h7>
+                <div row>
+                    <button type="button" class="btn btn-gplus"><i class="fa fa-google-plus-g pr-1"></i> Google +</button>
+                    <!-- <h4 class="text-uppercase mb-4">Around the Web</h4> -->
+                    <!-- <a class="btn btn-outline-light bg-white btn-social mx-1 btn-li" href="https://www.linkedin.com/in/mitchelle-bengura-b014a0b6"><i class="fab fa-linkedin-in"></i></a> -->
+                        <!--GitHub-->
+                    <a class="btn btn-outline-light btn-git"rel="nofollow" target="_blank" href="https://github.com/mdbootstrap/bootstrap-material-design"><i class="fab fa-github mr-4"></i></a>
+                    <!-- <button type="button" class="btn btn-git"><i class="fab fa-github"></i></button>
+                    <button type="button" class="btn btn-email"><i class="fas fa-envelope"></i></button> -->
+                    <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a> -->
                 </div>
             </div>
         </div>
-      </footer>
+    </footer>
     <!-- Copyright Section-->
       <div class="copyright py-4 text-center text-white">
           <div class="container"><small>Copyright © Mitchelle Bengura 2020</small></div>
@@ -197,7 +210,6 @@
       <div class="scroll-to-top d-lg-none position-fixed">
           <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
       </div>
-    <!-- Portfolio Modals--><!-- Portfolio Modal 1-->
         <!-- Portfolio Modals--><!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -217,8 +229,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="Assets/images/password.gif" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="text-secondary mb-5">This application generates a random password based on user-selected criteria. This app runs in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It also features a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.</p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -246,8 +258,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                   <!-- Portfolio Modal - Text-->
+                                    <p class=" text-secondary mb-5">The application uses finance APIs to generate a diverse range of stocks suitable for an individual’s stock preference. When a user opens the app, they are presented with a selection of conservative, balanced or aggressive risk tolerance options to select. If a user is not aware of their risk tolerance, they have the option of participating in a quiz designed to determine their risk tolerance based on a set of carefully selected questions and a set algorithm. Once a risk tolerance is determined, the user is presented with a selection of stocks that align with their risk profile, as well as top news stories about the recommended stocks.</p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -275,8 +287,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="text-secondary mb-5">The application uses OpenWeather APIs to generate weather data for any location, including 200,000 cities using JSON, HTML and CSS styling. </p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -304,8 +316,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="text-secondary mb-5">Write, save and delete notes using this noteTaker application. The application was created using technologies such as Node, Express,   HTML,CSS,Bootstrap and VS Code </p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -333,8 +345,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="text-secondary mb-5">Creating a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:node index.js . The user will be prompted for their GitHub username and other information pertaining to the project the README is for.</p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
