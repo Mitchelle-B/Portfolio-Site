@@ -33,6 +33,11 @@ Below are screenshots of my page and code for review:
 
 git clone https://github.com/Mitchelle-B/repo.git
 
+## Next Steps ##
+
+Enable the contact me functionality 
+fixing the styling page
+
 ## Contributing ##
 
     Fork the Project
