@@ -5,7 +5,7 @@
 
 ## About The Page ## 
 
-Builting my portfolio with HTML, CSS framework and bootstrap. My portfolio will highlight my skills, strength, weaknesses and the work l've undertaken. 
+Building my portfolio with HTML,JS, CSS framework and bootstrap. My portfolio will highlight my skills, strength, weaknesses and the work l've undertaken. 
 
 ## Portfolio Page Screen Shot ##
 
