@@ -10179,8 +10179,7 @@ h3 {
   position: relative;
   border-bottom: 1px solid #e9ecef;
 }
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group {
   font-size: 1.5em;
   position: relative;
   z-index: 1;
@@ -10192,7 +10191,7 @@ h3 {
   background: none;
   box-shadow: none !important;
 }
-.floating-label-form-group label {
+.floating-label-form-group {
   font-size: 0.85em;
   line-height: 1.764705882em;
   position: relative;
@@ -10207,17 +10206,7 @@ h3 {
   padding-left: 14px;
   border-left: 1px solid #e9ecef;
 }
-
-.floating-label-form-group-with-value label {
-  top: 0;
-  opacity: 1;
-}
-
-.floating-label-form-group-with-focus label {
-  color: #1abc9c;
-}
-
-form .row:first-child .floating-label-form-group {
+.floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
