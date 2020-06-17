@@ -5,7 +5,7 @@
 
 ## About The Page ## 
 
-Builting my portfolio with HTML, CSS framework and bootstrap. My portfolio will highlight my skills, strength, weaknesses and the work l've undertaken. 
+Building my portfolio with HTML,JS, CSS framework and bootstrap. My portfolio will highlight my skills, strength, weaknesses and the work l've undertaken. 
 
 ## Portfolio Page Screen Shot ##
 
@@ -32,6 +32,11 @@ Below are screenshots of my page and code for review:
     Clone the repo
 
 git clone https://github.com/Mitchelle-B/repo.git
+
+## Next Steps ##
+
+Enable the contact me functionality 
+fixing the styling page
 
 ## Contributing ##
 
