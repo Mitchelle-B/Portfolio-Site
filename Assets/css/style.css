@@ -33,6 +33,7 @@
     }
   }
   
+
   .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
     width: 100%;
     padding-right: 1.5rem;
@@ -184,7 +185,10 @@ button.bg-success:focus {
 .rounded-circle {
     border-radius: 50% !important;
 }
-
+btn.btn-primary{
+    height: 50px;
+    width: 50px;
+}
 img {
     vertical-align: middle;
     border-style: none;
@@ -442,6 +446,9 @@ h6, .h6 {
     color: #fff;
     background-color: #1abc9c;
     border-color: #1abc9c;
+    height:50px;
+    width: 100px;
+
 }
 .btn-primary:hover {
     color: #fff;
