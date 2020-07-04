@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -64,16 +64,96 @@
     <section class="page-section bg-primary text-black mb-0" id="portfolio">
         <div class="container">
                   <!-- Portfolio Section Heading-->
-                  <h2 class="page-section-heading text-center text-uppercase text-white">Portfolio</h2>
-                            <!-- Icon Divider-->
+                  <h2 class="page-section-heading text-center text-uppercase text-white">Projects</h2>
+                            <!-- Icon Divider
                     <div class="divider-custom divider-light">
                         <div class="divider-custom-line"></div>
                         <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
                         <div class="divider-custom-line"></div>
-                    </div>
-                  <!-- Portfolio Grid Items-->
-            <div class="row">
+                    </div> -->
+                      <!-- Portfolio Grid Items-->
                       <!-- Portfolio Item 1-->
+                      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="2" ></li>
+                          <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="4"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="5"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="6"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="7"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="8"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="9"></li>
+                          <li data-target="#carouselIndicators" data-slide-to="10"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-toggle="modal" data-target="#portfolioModal1">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/passwordgenerator.PNG" alt="Password Generator App">
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal2">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/stockportfolio.PNG" alt="Stock Portfolio Generator">
+                            <div class="carousel-caption d-none d-md-block"> </div> 
+                            <div class="carousel-caption text-white text-uppercase height-auto">
+                                <h7 class = 'h7-responsive'>Stock Portfolio Generator</h7>
+                            </div> 
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal3">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/weatherapi.PNG" alt="weatherapi App">
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal4">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/notetaker.PNG" alt="NoteTaker App">
+                            <div class="carousel-caption text-dark text-uppercase height-auto">
+                                <h7 class = 'h7-responsive'>NoteTaker Application</h7>
+                            </div> 
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal5">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/employeesummary.PNG" alt="Employee Summary App">
+                            <div class="carousel-caption text-dark d-none d-md-block"></div> 
+                                <h7 class = 'h7-responsive'>Employee Summary Application</h7>
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal6">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/dayscheduler.PNG" alt="Day Scheduler App">
+                            <div class="carousel-caption text-dark d-none d-md-block"></div> 
+                                <h7 class = 'h7-responsive'>Day Scheduler Application</h7>
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal7">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/workout.PNG" alt="Workout Tracker App">
+                            <div class="carousel-caption d-none d-md-block"></div> 
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal8">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/passwordgenerator.PNG" alt="Password Generator App">
+                            <div class="carousel-caption d-none d-md-block"></div> 
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal9">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/passwordgenerator.PNG" alt="Password Generator App">
+                            <div class="carousel-caption d-none d-md-block"></div> 
+                            </div>
+                            <div class="carousel-item" data-toggle="modal" data-target="#portfolioModal9">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i></div>
+                            <img class="d-block w-100"  src="Assets/images/passwordgenerator.PNG" alt="Password Generator App">
+                            <div class="carousel-caption d-none d-md-block"></div> 
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+            <!-- <div class= "row">
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
@@ -81,72 +161,72 @@
                     <img class="img-fluid" src="Assets/images/password.gif" alt="" />
                     <h7>Password Generator</h7>
                 </div>
-            </div>
+            </div> -->
                       <!-- Portfolio Item 2-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                       <img class="img-fluid" src="Assets/images/stock.gif" alt="" />
                       <h7>Stock Generator</h7>
                     </div>
-            </div>
+            </div> -->
                       <!-- Portfolio Item 3-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                     <img class="img-fluid height" src="Assets/images/weather.gif" alt="" />
                     <h7>Weather APIs</h7>
                 </div>
-            </div>
+            </div> -->
                     <!-- Portfolio Item 4-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                     <img class="img-fluid" src="Assets/images/obama.gif" alt="" />
                     <h7>NoteTaker</h7>
                 </div>
-            </div>
+            </div> -->
                 <!-- Portfolio Item 5-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                     <img class="img-fluid" src="Assets/images/team.gif" alt="" />
                     <h7>Team Profile</h7>
                 </div>
-            </div>
+            </div> -->
                 <!-- Portfolio Item 6-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                     <img class="img-fluid" src="Assets/images/schedule.gif" alt="" />
                     <h7>Day Scheduler</h7>
                 </div>
-            </div>
+            </div> -->
                <!-- Portfolio Item 7-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                     <img class="img-fluid" src="Assets/images/workout.gif" alt="" />
                     <h7>WorkOut Tracker</h7>
                 </div>
-            </div>
+            </div> -->
                <!-- Portfolio Item 8-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
                     <img class="img-fluid" src="Assets/images/burger.gif" alt="" />
                     <h7>Burger Application</h7>
                 </div>
-            </div>
+            </div> -->
                <!-- Portfolio Item 9-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
@@ -154,9 +234,7 @@
                     <h7>Online Quiz</h7>
                 </div>
             </div>  
-             
-            
-        </div>
+        </div> -->
     </section>
       <!-- Contact Section-->
     <section class="page-section bg-secondary text-white mb-0" id="contact">
